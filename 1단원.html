@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>여긴 title이여~</title>
+  <script>
+    function show() {
+      document.getElementById("fig").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7LpapIl8DITfz4_Y2z7pqs7FknPkjReAZCg&s";
+    }
+    function hide() {
+      document.getElementById("fig").src="";
+    }
+  </script>
+  <style>
+    body {
+      background-color: linen;
+      color: green;
+      margin-left: 40px;
+    }
+    #name {
+      text-align: center;
+      color: darkred;
+    }
+    hr {
+      height: 5px;
+      border: solid grey;
+      background-color: grey;
+    }
+    span { 
+      color: blue;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h3 id="name" onmouseover="show()" onmouseout="hide()">신승호</h3>
+  <hr>
+  <div><img src="" id="fig"></div>
+  안녕하세요 안녕하세요 안녕하세요아녕하에상녀ㅐㅁ랴덜미나어랴미나ㅓ랴딘민아러먀니얄<span>아니 반갑다니까?</span>
+  <h1 title="모든 태그들은 마우스를 올리면 지금처럼 글씨를 띄워주는 title속성을 가진다.">h1(마우스 올려보셈)</h1>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <h4>h4</h4>
+  <h5>h5</h5>
+  <h6>h6</h6>
+
+  <br>
+
+  <p>
+    p는 paragraph줄인말로 단락을 나눌 때 사용함. 단락 단위로 내어 쓰기와 들여 쓰기가 가능함. 특징으로는 태그를 마칠 때 한 줄의 공백이 생긴다.(코드 참고)
+  </p> 
+  <p>^ 이런식으로</p>
+
+  <br>
+
+  <h3>수평선(horizontal) 긋기는 hr태그~ (hr은 종료태그가 없어용)</h3>
+  <hr>
+
+  <br>
+
+
+  <h3>줄바꿈은 br태그~ </h3>
+  <br>
+  한번쓰면 여기
+  <br><br>
+  두번쓰면 여기
+</body>
+</html>
